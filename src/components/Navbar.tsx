@@ -1,14 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
-
-const GridIcon = () => (
-  <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-    <rect x="2" y="2" width="10" height="10" rx="2" fill="hsl(193,100%,42%)" />
-    <rect x="16" y="2" width="10" height="10" rx="2" fill="hsl(193,100%,42%)" />
-    <rect x="2" y="16" width="10" height="10" rx="2" fill="hsl(193,100%,42%)" />
-    <rect x="16" y="16" width="10" height="10" rx="2" fill="hsl(193,100%,42%)" opacity="0.5" />
-  </svg>
-);
+import logoImg from "@/assets/logo-urbansense.png";
 
 const links = [
   { label: "Como funciona", href: "#como-funciona" },
@@ -40,15 +32,18 @@ const Navbar = () => {
         visible ? "translate-y-0" : "-translate-y-full"
       } ${
         scrolled
-          ? "bg-white/80 backdrop-blur-lg border-b border-border shadow-sm"
-          : "bg-white border-b border-transparent"
+          ? "bg-white/80 backdrop-blur-lg shadow-sm"
+          : "bg-white"
       }`}
+      style={{ borderBottom: "1px solid #E2E8F0" }}
     >
-      <div className="container mx-auto flex items-center justify-between h-16 px-4 lg:px-8">
+      <div className="container mx-auto flex items-center justify-between h-20 px-4 lg:px-8">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2">
-          <GridIcon />
-          <span className="text-lg font-bold text-navy">UrbanSense</span>
+        <a href="#" className="flex flex-col items-start gap-0.5 shrink-0">
+          <img src={logoImg} alt="UrbanSense" className="h-10 w-auto" />
+          <span className="text-[11px] leading-tight" style={{ color: "#6B8BA4" }}>
+            Inteligência urbana para cidades mais eficientes
+          </span>
         </a>
 
         {/* Desktop links */}
@@ -57,7 +52,8 @@ const Navbar = () => {
             <a
               key={l.href}
               href={l.href}
-              className="text-sm font-medium text-navy/70 hover:text-navy transition-colors"
+              className="text-sm font-medium transition-colors hover:opacity-70"
+              style={{ color: "#0A2540", fontSize: "14px" }}
             >
               {l.label}
             </a>
@@ -66,17 +62,25 @@ const Navbar = () => {
 
         {/* Desktop CTA */}
         <div className="hidden md:flex items-center gap-3">
-          <Button variant="ghost" className="text-navy text-sm font-medium">
+          <Button
+            variant="outline"
+            className="text-sm font-medium rounded-lg"
+            style={{ color: "#0A2540", borderColor: "#0A2540" }}
+          >
             Acessar painel
           </Button>
-          <Button className="bg-cyan text-primary-foreground hover:bg-cyan/90 text-sm font-semibold px-5">
+          <Button
+            className="text-sm font-semibold px-5 text-white rounded-lg"
+            style={{ backgroundColor: "#00B4D8" }}
+          >
             Quero testar
           </Button>
         </div>
 
         {/* Mobile toggle */}
         <button
-          className="md:hidden p-2 text-navy"
+          className="md:hidden p-2"
+          style={{ color: "#0A2540" }}
           onClick={() => setMobileOpen(!mobileOpen)}
         >
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -91,22 +95,23 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="md:hidden bg-white border-t border-border px-4 pb-4">
+        <div className="md:hidden bg-white px-4 pb-4" style={{ borderTop: "1px solid #E2E8F0" }}>
           {links.map((l) => (
             <a
               key={l.href}
               href={l.href}
-              className="block py-3 text-sm font-medium text-navy/70"
+              className="block py-3 text-sm font-medium"
+              style={{ color: "#0A2540" }}
               onClick={() => setMobileOpen(false)}
             >
               {l.label}
             </a>
           ))}
           <div className="flex flex-col gap-2 mt-3">
-            <Button variant="ghost" className="text-navy text-sm justify-start">
+            <Button variant="outline" className="text-sm justify-start" style={{ color: "#0A2540", borderColor: "#0A2540" }}>
               Acessar painel
             </Button>
-            <Button className="bg-cyan text-primary-foreground text-sm font-semibold">
+            <Button className="text-sm font-semibold text-white" style={{ backgroundColor: "#00B4D8" }}>
               Quero testar
             </Button>
           </div>
