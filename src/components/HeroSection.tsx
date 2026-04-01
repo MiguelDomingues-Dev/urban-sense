@@ -20,10 +20,10 @@ const HeroSection = () => (
           </AnimatedSection>
 
           <AnimatedSection delay={0.1}>
-            <h1 className="text-4xl md:text-[56px] font-extrabold text-navy leading-[1.1] tracking-tight">
+            <h1 className="text-4xl md:text-[56px] font-extrabold leading-[1.1] tracking-tight" style={{ color: "#0A2540" }}>
               Transforme problemas urbanos
               <br />
-              em decisões <span className="text-cyan">inteligentes.</span>
+              em decisões <span style={{ color: "#00B4D8" }}>inteligentes.</span>
             </h1>
           </AnimatedSection>
 
