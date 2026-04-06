@@ -1,11 +1,4 @@
-const GridIcon = () => (
-  <svg width="24" height="24" viewBox="0 0 28 28" fill="none">
-    <rect x="2" y="2" width="10" height="10" rx="2" fill="hsl(193,100%,42%)" />
-    <rect x="16" y="2" width="10" height="10" rx="2" fill="hsl(193,100%,42%)" />
-    <rect x="2" y="16" width="10" height="10" rx="2" fill="hsl(193,100%,42%)" />
-    <rect x="16" y="16" width="10" height="10" rx="2" fill="hsl(193,100%,42%)" opacity="0.5" />
-  </svg>
-);
+import logoImg from "@/assets/logo-urbansense.png";
 
 const navLinks = [
   { label: "Como funciona", href: "#como-funciona" },
@@ -27,10 +20,7 @@ const Footer = () => (
       <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 py-10">
         {/* Logo */}
         <div>
-          <div className="flex items-center gap-2 mb-1">
-            <GridIcon />
-            <span className="text-white font-bold text-lg">UrbanSense</span>
-          </div>
+          <img src={logoImg} alt="UrbanSense" className="h-14 w-auto object-contain mb-1" />
           <p className="text-cyan text-xs">Inteligência Urbana Baseada em Dados</p>
         </div>
 

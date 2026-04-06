@@ -39,11 +39,8 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between h-20 px-4 lg:px-8">
         {/* Logo */}
-        <a href="#" className="flex flex-col items-start gap-0.5 shrink-0">
-          <img src={logoImg} alt="UrbanSense" className="h-10 w-auto" />
-          <span className="text-[11px] leading-tight" style={{ color: "#6B8BA4" }}>
-            Inteligência urbana para cidades mais eficientes
-          </span>
+        <a href="#" className="shrink-0 flex items-center">
+          <img src={logoImg} alt="UrbanSense" className="h-12 w-auto object-contain" />
         </a>
 
         {/* Desktop links */}
