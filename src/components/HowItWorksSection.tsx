@@ -6,20 +6,20 @@ const steps = [
   {
     num: "01",
     icon: Pencil,
-    title: "Cidadão reporta",
-    body: "Formulário simples pelo celular ou computador. Foto, localização e categoria em menos de 2 minutos.",
+    title: "Morador reporta",
+    body: "Formulário simples pelo celular. Bloco, apartamento, categoria e descrição em menos de 2 minutos. Recebe protocolo por e-mail.",
   },
   {
     num: "02",
     icon: Sparkles,
     title: "IA organiza e prioriza",
-    body: "Nossa IA agrupa chamados similares do mesmo bairro, elimina duplicatas e escala a prioridade automaticamente.",
+    body: "Nossa IA agrupa chamados similares da mesma torre, elimina duplicatas e escala a prioridade automaticamente — sem trabalho manual.",
   },
   {
     num: "03",
     icon: BarChart3,
-    title: "Gestor age com dados",
-    body: "Painel em tempo real com mapa, dashboard e fila priorizada. Sabe exatamente onde agir primeiro.",
+    title: "Síndico age com dados",
+    body: "Painel em tempo real com mapa por torre, dashboard de prioridades e fila organizada. Sabe exatamente o que resolver primeiro.",
   },
 ];
 
@@ -29,9 +29,9 @@ const HowItWorksSection = () => (
       <AnimatedSection>
         <p className="text-xs font-semibold uppercase tracking-widest text-cyan mb-4">Como funciona</p>
         <h2 className="text-3xl md:text-[44px] font-bold text-navy leading-tight">
-          Simples para o cidadão.
+          Simples para o morador.
           <br />
-          Poderoso para o gestor.
+          Poderoso para o síndico.
         </h2>
       </AnimatedSection>
 
