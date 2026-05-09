@@ -15,28 +15,28 @@ const HeroSection = () => (
         <div className="lg:w-[55%] w-full">
           <AnimatedSection>
             <span className="inline-block bg-cyan text-primary-foreground text-xs font-semibold px-4 py-1.5 rounded-full mb-6">
-              🏙️ Inteligência Urbana com IA
+              🏢 Gestão Inteligente para Condomínios
             </span>
           </AnimatedSection>
 
           <AnimatedSection delay={0.1}>
             <h1 className="text-4xl md:text-[56px] font-extrabold leading-[1.1] tracking-tight" style={{ color: "#0A2540" }}>
-              Transforme problemas urbanos
+              Seu condomínio organizado.
               <br />
-              em decisões <span style={{ color: "#00B4D8" }}>inteligentes.</span>
+              Seus moradores <span style={{ color: "#00B4D8" }}>satisfeitos.</span>
             </h1>
           </AnimatedSection>
 
           <AnimatedSection delay={0.2}>
             <p className="mt-5 text-lg text-body-muted max-w-[520px] leading-relaxed">
-              UrbanSense conecta cidadãos, escolas e empresas às prefeituras — com dados em tempo real, IA que elimina chamados duplicados e dashboards que mostram onde agir primeiro.
+              UrbanSense conecta moradores e síndicos com dados em tempo real — chamados organizados por prioridade, IA que agrupa problemas similares e dashboard que mostra onde agir primeiro.
             </p>
           </AnimatedSection>
 
           <AnimatedSection delay={0.3}>
             <div className="flex flex-wrap gap-4 mt-8">
               <Button className="bg-cyan text-primary-foreground hover:bg-cyan/90 h-12 px-8 text-base font-semibold rounded-lg">
-                Começar agora →
+                Quero para meu condomínio →
               </Button>
               <Button
                 variant="outline"
@@ -49,9 +49,9 @@ const HeroSection = () => (
 
           <AnimatedSection delay={0.4}>
             <div className="flex flex-wrap items-center gap-4 mt-7 text-xs text-body-muted">
-              <span>📍 150 usuários no piloto</span>
+              <span>🏢 216 unidades no piloto</span>
               <span className="hidden sm:inline">·</span>
-              <span>🏙️ 6 cidades</span>
+              <span>🏗️ 4 torres monitoradas</span>
               <span className="hidden sm:inline">·</span>
               <span>✅ Gratuito para começar</span>
             </div>
