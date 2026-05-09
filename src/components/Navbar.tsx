@@ -4,9 +4,9 @@ import logoImg from "@/assets/logo-urbansense.png";
 
 const links = [
   { label: "Como funciona", href: "#como-funciona" },
-  { label: "Para quem é", href: "#problema" },
-  { label: "Recursos", href: "#recursos" },
+  { label: "Para quem é", href: "#para-quem" },
   { label: "Piloto", href: "#piloto" },
+  { label: "Contato", href: "mailto:contato@urbansense.app" },
 ];
 
 const Navbar = () => {
