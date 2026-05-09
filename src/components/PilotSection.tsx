@@ -33,12 +33,12 @@ const useCountUp = (end: number, duration = 1500) => {
 };
 
 const metrics = [
-  { end: 150, suffix: "", label: "usuários no piloto" },
-  { end: 6, suffix: "", label: "cidades monitoradas" },
-  { end: 0, suffix: "", prefix: "R$ ", label: "custo para as prefeituras" },
+  { end: 216, suffix: "", label: "unidades no piloto" },
+  { end: 4, suffix: "", label: "torres monitoradas" },
+  { end: 0, suffix: "", prefix: "R$ ", label: "custo para o condomínio piloto" },
 ];
 
-const logos = ["Prefeitura", "Escola", "Empresa", "Universidade", "ONG"];
+const logos = ["Condomínio", "Síndico", "Administradora", "Moradores", "Prestadores"];
 
 const PilotSection = () => (
   <section id="piloto" className="bg-white section-padding">
