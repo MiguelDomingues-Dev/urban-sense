@@ -49,7 +49,7 @@ const Footer = () => (
 
       <div className="border-t border-white/[0.08] py-5 text-center">
         <p className="text-white/35 text-[13px]">
-          Projeto acadêmico em fase de validação — 2026 · UrbanSense
+          Projeto em validação — 2025 · UrbanSense · Sorocaba/SP
         </p>
       </div>
     </div>
