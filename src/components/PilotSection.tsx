@@ -46,7 +46,7 @@ const PilotSection = () => (
       <AnimatedSection>
         <p className="text-xs font-semibold uppercase tracking-widest text-cyan mb-4">Projeto Piloto</p>
         <h2 className="text-3xl md:text-[44px] font-bold text-navy leading-tight">
-          Testado. Aprovado. Em expansão.
+          Sendo validado com dados reais.
         </h2>
       </AnimatedSection>
 
