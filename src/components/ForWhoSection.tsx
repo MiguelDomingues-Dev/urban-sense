@@ -65,7 +65,7 @@ const ForWhoSection = () => (
                 ))}
               </div>
               <a href="#" className="text-sm font-medium text-cyan hover:underline">
-                Ver caso de uso →
+                {c.link}
               </a>
             </div>
           </AnimatedSection>
