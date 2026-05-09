@@ -21,7 +21,7 @@ const Footer = () => (
         {/* Logo */}
         <div>
           <img src={logoImg} alt="UrbanSense" className="h-14 w-auto object-contain mb-1" />
-          <p className="text-cyan text-xs">Inteligência Urbana Baseada em Dados</p>
+          <p className="text-cyan text-xs">Gestão inteligente de chamados para condomínios</p>
         </div>
 
         {/* Nav */}
