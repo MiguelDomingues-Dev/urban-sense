@@ -28,10 +28,10 @@ const AISection = () => (
               Inteligência Artificial
             </p>
             <h2 className="text-3xl md:text-[44px] font-bold text-white leading-tight">
-              Cinco pessoas, um problema, uma solução.
+              Cinco moradores, um problema, uma solução.
             </h2>
             <p className="text-white/70 text-base mt-5 max-w-[440px] leading-relaxed">
-              Quando múltiplos cidadãos reportam o mesmo problema no mesmo bairro, nossa IA identifica, agrupa e escala a prioridade automaticamente — sem criar ruído para o gestor.
+              Quando vários moradores reportam o mesmo problema na mesma torre, nossa IA identifica automaticamente, agrupa os chamados e escala a prioridade — sem criar ruído para o síndico.
             </p>
           </AnimatedSection>
 
