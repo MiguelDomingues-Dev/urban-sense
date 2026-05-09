@@ -4,9 +4,9 @@ import logoImg from "@/assets/logo-urbansense.png";
 
 const links = [
   { label: "Como funciona", href: "#como-funciona" },
-  { label: "Para quem é", href: "#problema" },
-  { label: "Recursos", href: "#recursos" },
+  { label: "Para quem é", href: "#para-quem" },
   { label: "Piloto", href: "#piloto" },
+  { label: "Contato", href: "mailto:contato@urbansense.app" },
 ];
 
 const Navbar = () => {
@@ -39,8 +39,11 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between h-20 px-4 lg:px-8">
         {/* Logo */}
-        <a href="#" className="shrink-0 flex items-center">
+        <a href="#" className="shrink-0 flex flex-col items-start leading-tight">
           <img src={logoImg} alt="UrbanSense" className="h-12 w-auto object-contain" />
+          <span className="text-[11px] mt-1" style={{ color: "#6B8BA4" }}>
+            Gestão inteligente de chamados para condomínios
+          </span>
         </a>
 
         {/* Desktop links */}

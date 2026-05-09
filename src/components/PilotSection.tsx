@@ -33,12 +33,12 @@ const useCountUp = (end: number, duration = 1500) => {
 };
 
 const metrics = [
-  { end: 150, suffix: "", label: "usuários no piloto" },
-  { end: 6, suffix: "", label: "cidades monitoradas" },
-  { end: 0, suffix: "", prefix: "R$ ", label: "custo para as prefeituras" },
+  { end: 216, suffix: "", label: "unidades no piloto" },
+  { end: 4, suffix: "", label: "torres monitoradas" },
+  { end: 0, suffix: "", prefix: "R$ ", label: "custo para o condomínio piloto" },
 ];
 
-const logos = ["Prefeitura", "Escola", "Empresa", "Universidade", "ONG"];
+const logos = ["Condomínio", "Síndico", "Administradora", "Moradores", "Prestadores"];
 
 const PilotSection = () => (
   <section id="piloto" className="bg-white section-padding">
@@ -46,7 +46,7 @@ const PilotSection = () => (
       <AnimatedSection>
         <p className="text-xs font-semibold uppercase tracking-widest text-cyan mb-4">Projeto Piloto</p>
         <h2 className="text-3xl md:text-[44px] font-bold text-navy leading-tight">
-          Testado. Aprovado. Em expansão.
+          Sendo validado com dados reais.
         </h2>
       </AnimatedSection>
 
@@ -61,9 +61,9 @@ const PilotSection = () => (
       <AnimatedSection delay={0.3}>
         <div className="bg-navy rounded-2xl p-8 md:p-10 mt-10 max-w-[680px] mx-auto text-left">
           <p className="text-white italic text-lg leading-relaxed">
-            "Uma ferramenta que finalmente coloca o dado certo na mão de quem decide."
+            "Finalmente um sistema que dá visibilidade real para o síndico e transparência para os moradores."
           </p>
-          <p className="text-cyan text-sm mt-4">— Equipe UrbanSense</p>
+          <p className="text-cyan text-sm mt-4">— Equipe UrbanSense · Sorocaba/SP</p>
         </div>
       </AnimatedSection>
 

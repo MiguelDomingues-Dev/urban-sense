@@ -3,7 +3,7 @@ import logoImg from "@/assets/logo-urbansense.png";
 const navLinks = [
   { label: "Como funciona", href: "#como-funciona" },
   { label: "Para quem é", href: "#para-quem" },
-  { label: "Recursos", href: "#recursos" },
+  { label: "Piloto", href: "#piloto" },
   { label: "Contato", href: "mailto:contato@urbansense.app" },
   { label: "Privacidade", href: "#" },
 ];
@@ -21,7 +21,7 @@ const Footer = () => (
         {/* Logo */}
         <div>
           <img src={logoImg} alt="UrbanSense" className="h-14 w-auto object-contain mb-1" />
-          <p className="text-cyan text-xs">Inteligência Urbana Baseada em Dados</p>
+          <p className="text-cyan text-xs">Gestão inteligente de chamados para condomínios</p>
         </div>
 
         {/* Nav */}
@@ -49,7 +49,7 @@ const Footer = () => (
 
       <div className="border-t border-white/[0.08] py-5 text-center">
         <p className="text-white/35 text-[13px]">
-          Projeto acadêmico em fase de validação — 2026 · UrbanSense
+          Projeto em validação — 2025 · UrbanSense · Sorocaba/SP
         </p>
       </div>
     </div>

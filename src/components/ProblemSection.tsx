@@ -1,9 +1,9 @@
 import AnimatedSection from "./AnimatedSection";
 
 const stats = [
-  { value: "68%", desc: "dos chamados nunca recebem resposta formal" },
-  { value: "4x", desc: "mais chamados duplicados que ocorrências únicas em média" },
-  { value: "23 dias", desc: "tempo médio de resolução sem sistema de priorização" },
+  { value: "78%", desc: "dos chamados em condomínios chegam por WhatsApp sem nenhum registro formal" },
+  { value: "3x", desc: "mais tempo gasto com chamados duplicados do que com a resolução em si" },
+  { value: "12 dias", desc: "tempo médio de resolução sem um sistema de priorização" },
 ];
 
 const ProblemSection = () => (
@@ -12,10 +12,10 @@ const ProblemSection = () => (
       <AnimatedSection>
         <p className="text-xs font-semibold uppercase tracking-widest text-cyan mb-4">O Problema</p>
         <h2 className="text-3xl md:text-5xl font-bold text-white mb-5">
-          As prefeituras estão cegas.
+          O síndico está sobrecarregado.
         </h2>
         <p className="text-white/70 text-base md:text-lg max-w-[580px] mx-auto leading-relaxed">
-          Chamados duplicados, planilhas desorganizadas e falta de priorização fazem com que problemas simples demorem semanas — enquanto a população perde a confiança.
+          Chamados chegam por WhatsApp, ligação e bilhete — sem registro, sem prioridade, sem histórico. O síndico não sabe o que resolver primeiro e os moradores ficam sem resposta.
         </p>
       </AnimatedSection>
 

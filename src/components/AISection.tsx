@@ -2,11 +2,11 @@ import { CheckCircle2 } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 
 const features = [
-  "Detecta chamados similares em tempo real",
+  "Detecta chamados similares por torre e área",
   "Agrupa por localização e descrição",
   "Escala prioridade automaticamente",
-  "Notifica todos os cidadãos do grupo ao resolver",
-  "Reduz 80% do ruído operacional",
+  "Notifica todos os moradores da torre ao resolver",
+  "Reduz 80% do volume de chamados duplicados",
 ];
 
 const citizens = [
@@ -28,10 +28,10 @@ const AISection = () => (
               Inteligência Artificial
             </p>
             <h2 className="text-3xl md:text-[44px] font-bold text-white leading-tight">
-              Cinco pessoas, um problema, uma solução.
+              Cinco moradores, um problema, uma solução.
             </h2>
             <p className="text-white/70 text-base mt-5 max-w-[440px] leading-relaxed">
-              Quando múltiplos cidadãos reportam o mesmo problema no mesmo bairro, nossa IA identifica, agrupa e escala a prioridade automaticamente — sem criar ruído para o gestor.
+              Quando vários moradores reportam o mesmo problema na mesma torre, nossa IA identifica automaticamente, agrupa os chamados e escala a prioridade — sem criar ruído para o síndico.
             </p>
           </AnimatedSection>
 
@@ -52,7 +52,7 @@ const AISection = () => (
           <AnimatedSection delay={0.2}>
             <div className="bg-white rounded-2xl shadow-2xl p-6 md:p-7">
               <h3 className="text-[15px] font-bold text-navy mb-3">
-                Poste apagado — Rua Tiradentes, Centro
+                Elevador parado — Torre B, Bloco 3
               </h3>
               <div className="flex gap-2 mb-5">
                 <span className="text-[11px] font-semibold px-3 py-1 rounded-full bg-blue-100 text-blue-700">

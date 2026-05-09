@@ -14,7 +14,7 @@ const CTASection = () => {
       <div className="container mx-auto px-4 lg:px-8 text-center">
         <AnimatedSection>
           <h2 className="text-3xl md:text-[52px] font-bold text-white leading-tight">
-            Sua cidade merece dados melhores.
+            Seu condomínio merece uma gestão melhor.
           </h2>
           <p className="text-white/75 text-lg mt-4">
             Entre para o piloto. Gratuito. Sem instalação. Funciona no navegador.
@@ -25,7 +25,7 @@ const CTASection = () => {
           <div className="flex flex-col sm:flex-row gap-3 mt-9 max-w-[480px] mx-auto">
             <input
               type="email"
-              placeholder="seu@email.com"
+              placeholder="e-mail do síndico ou administradora"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="flex-1 bg-white rounded-lg px-5 py-3.5 text-sm text-navy placeholder:text-muted-foreground outline-none focus:ring-2 focus:ring-white/50"
@@ -43,7 +43,7 @@ const CTASection = () => {
             href="mailto:contato@urbansense.app"
             className="inline-block text-white underline text-sm mt-5 hover:text-white/80 transition-colors"
           >
-            Prefeitura, escola ou empresa? Fale com a gente →
+            Síndico, morador ou administradora? Fale com a gente →
           </a>
         </AnimatedSection>
       </div>

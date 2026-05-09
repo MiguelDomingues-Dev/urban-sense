@@ -4,23 +4,26 @@ import AnimatedSection from "./AnimatedSection";
 const cards = [
   {
     icon: Building2,
-    title: "Prefeituras",
-    body: "Gerencie ocorrências urbanas de toda a cidade. Mapa de calor, priorização por bairro e relatórios para cada secretaria responsável.",
-    tags: ["Iluminação", "Pavimentação", "Saneamento"],
+    title: "Síndico",
+    body: "Painel completo com dashboard, mapa de calor por torre, fila de prioridades e histórico de resoluções. Apresente dados na assembleia com um clique.",
+    tags: ["Dashboard", "Mapa de calor", "Relatórios"],
+    link: "Ver painel →",
     featured: false,
   },
   {
     icon: School,
-    title: "Escolas",
-    body: "Reporte problemas de infraestrutura e segurança. A direção vê tudo em um painel e age antes que vire crise.",
-    tags: ["Manutenção", "Segurança", "Infraestrutura"],
+    title: "Morador",
+    body: "Reporte problemas em 2 minutos pelo celular. Receba protocolo, acompanhe o status e seja notificado quando resolver. Sem WhatsApp, sem esquecimento.",
+    tags: ["Formulário rápido", "Protocolo", "Notificação"],
+    link: "Ver portal →",
     featured: true,
   },
   {
     icon: Briefcase,
-    title: "Empresas",
-    body: "Canal interno para facilities e RH. Cada departamento com seu dashboard e SLA definido.",
-    tags: ["Facilities", "RH", "Gestão predial"],
+    title: "Administradora",
+    body: "Gerencie múltiplos condomínios em um só lugar. Dados de satisfação, tempo de resolução e custo por prestador para prestar contas com transparência.",
+    tags: ["Multi-condomínio", "Relatórios", "Prestadores"],
+    link: "Saiba mais →",
     featured: false,
   },
 ];
@@ -31,7 +34,7 @@ const ForWhoSection = () => (
       <AnimatedSection>
         <p className="text-xs font-semibold uppercase tracking-widest text-cyan mb-4">Para quem é</p>
         <h2 className="text-3xl md:text-[44px] font-bold text-navy leading-tight">
-          Uma plataforma, múltiplos contextos.
+          Uma solução, todos os lados do condomínio.
         </h2>
       </AnimatedSection>
 
@@ -62,7 +65,7 @@ const ForWhoSection = () => (
                 ))}
               </div>
               <a href="#" className="text-sm font-medium text-cyan hover:underline">
-                Ver caso de uso →
+                {c.link}
               </a>
             </div>
           </AnimatedSection>
