@@ -61,9 +61,9 @@ const PilotSection = () => (
       <AnimatedSection delay={0.3}>
         <div className="bg-navy rounded-2xl p-8 md:p-10 mt-10 max-w-[680px] mx-auto text-left">
           <p className="text-white italic text-lg leading-relaxed">
-            "Uma ferramenta que finalmente coloca o dado certo na mão de quem decide."
+            "Finalmente um sistema que dá visibilidade real para o síndico e transparência para os moradores."
           </p>
-          <p className="text-cyan text-sm mt-4">— Equipe UrbanSense</p>
+          <p className="text-cyan text-sm mt-4">— Equipe UrbanSense · Sorocaba/SP</p>
         </div>
       </AnimatedSection>
 
