@@ -52,7 +52,7 @@ const AISection = () => (
           <AnimatedSection delay={0.2}>
             <div className="bg-white rounded-2xl shadow-2xl p-6 md:p-7">
               <h3 className="text-[15px] font-bold text-navy mb-3">
-                Poste apagado — Rua Tiradentes, Centro
+                Elevador parado — Torre B, Bloco 3
               </h3>
               <div className="flex gap-2 mb-5">
                 <span className="text-[11px] font-semibold px-3 py-1 rounded-full bg-blue-100 text-blue-700">
