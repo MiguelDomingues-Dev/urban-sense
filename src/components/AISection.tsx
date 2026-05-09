@@ -2,11 +2,11 @@ import { CheckCircle2 } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 
 const features = [
-  "Detecta chamados similares em tempo real",
+  "Detecta chamados similares por torre e área",
   "Agrupa por localização e descrição",
   "Escala prioridade automaticamente",
-  "Notifica todos os cidadãos do grupo ao resolver",
-  "Reduz 80% do ruído operacional",
+  "Notifica todos os moradores da torre ao resolver",
+  "Reduz 80% do volume de chamados duplicados",
 ];
 
 const citizens = [
