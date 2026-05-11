@@ -87,7 +87,7 @@ const PilotSection = () => (
 const MetricCard = ({ end, prefix, label }: { end: number; suffix: string; prefix?: string; label: string }) => {
   const { ref, value } = useCountUp(end);
   return (
-    <div ref={ref} className="rounded-2xl p-8" style={{ backgroundColor: "#E0F7FA" }}>
+    <div ref={ref} className="rounded-2xl p-8" style={{ backgroundColor: "rgba(184,151,90,0.08)" }}>
       <p className="text-4xl md:text-[56px] font-bold text-navy leading-none mb-2">
         {prefix}
         {value}

@@ -56,10 +56,10 @@ const HowItWorksMockup = () => (
         <div className="bg-muted/30 rounded-lg h-28 relative overflow-hidden">
           <svg className="absolute inset-0 w-full h-full" viewBox="0 0 200 110" preserveAspectRatio="xMidYMid slice">
             {[40, 80, 120, 160].map((x) => (
-              <line key={`v${x}`} x1={x} y1="0" x2={x} y2="110" stroke="#0A2540" strokeOpacity="0.05" />
+              <line key={`v${x}`} x1={x} y1="0" x2={x} y2="110" stroke="#2C3E47" strokeOpacity="0.05" />
             ))}
             {[30, 60, 90].map((y) => (
-              <line key={`h${y}`} x1="0" y1={y} x2="200" y2={y} stroke="#0A2540" strokeOpacity="0.05" />
+              <line key={`h${y}`} x1="0" y1={y} x2="200" y2={y} stroke="#2C3E47" strokeOpacity="0.05" />
             ))}
             <circle cx="50" cy="40" r="6" fill="#ef4444" opacity="0.7" />
             <circle cx="90" cy="60" r="5" fill="#f59e0b" opacity="0.7" />
