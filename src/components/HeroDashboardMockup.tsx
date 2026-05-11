@@ -44,10 +44,10 @@ const HeroDashboardMockup = () => (
             <svg className="w-full h-full absolute inset-0" viewBox="0 0 300 140" preserveAspectRatio="xMidYMid slice">
               {/* Grid lines */}
               {[30, 70, 110, 150, 190, 230, 270].map((x) => (
-                <line key={`v${x}`} x1={x} y1="0" x2={x} y2="140" stroke="#0A2540" strokeOpacity="0.06" />
+                <line key={`v${x}`} x1={x} y1="0" x2={x} y2="140" stroke="#2C3E47" strokeOpacity="0.06" />
               ))}
               {[30, 60, 90, 120].map((y) => (
-                <line key={`h${y}`} x1="0" y1={y} x2="300" y2={y} stroke="#0A2540" strokeOpacity="0.06" />
+                <line key={`h${y}`} x1="0" y1={y} x2="300" y2={y} stroke="#2C3E47" strokeOpacity="0.06" />
               ))}
               {/* Dots */}
               <Dot color="#ef4444" x={80} y={45} />
