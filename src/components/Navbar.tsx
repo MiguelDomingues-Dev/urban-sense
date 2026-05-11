@@ -44,7 +44,12 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between h-20 px-4 lg:px-8">
         {/* Logo */}
         <a href="#" className="shrink-0 flex flex-col items-start leading-tight">
-          <img src={logoImg} alt="UrbanSense" className="h-11 w-auto object-contain" />
+          <img
+            src={logoImg}
+            alt="UrbanSense"
+            className="h-11 w-auto object-contain"
+            style={{ borderRadius: "4px", boxShadow: "0 2px 8px rgba(0,0,0,0.25)" }}
+          />
           <span className="text-[11px] mt-1" style={{ color: GOLD }}>
             Gestão inteligente de chamados para condomínios
           </span>
