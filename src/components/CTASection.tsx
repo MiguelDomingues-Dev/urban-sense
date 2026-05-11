@@ -8,7 +8,7 @@ const CTASection = () => {
     <section
       className="section-padding"
       style={{
-        background: "linear-gradient(135deg, #2C3E47 0%, #B8975A 100%)",
+        background: "linear-gradient(45deg, #2C3E47 0%, #B8975A 100%)",
       }}
     >
       <div className="container mx-auto px-4 lg:px-8 text-center">
