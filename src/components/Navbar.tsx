@@ -25,7 +25,12 @@ const Navbar = () => {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
-
+const openForm = () => {
+  window.open(
+    'https://docs.google.com/forms/d/e/1FAIpQLSfzgU7f1UQ-e5hHaKYW-vfjPn_Gh9ZmqeL9v03k-2DLYuyxzA/viewform',
+    '_blank'
+  );
+};
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -70,11 +75,12 @@ const Navbar = () => {
             Acessar painel
           </Button>
           <Button
-            className="text-sm font-semibold px-5 text-white rounded-lg"
-            style={{ backgroundColor: "#00B4D8" }}
-          >
-            Quero testar
-          </Button>
+          className="text-sm font-semibold px-5 text-white rounded-lg"
+          style={{ backgroundColor: "#00B4D8" }}
+          onClick={openForm}
+        >
+          Quero testar
+        </Button>
         </div>
 
         {/* Mobile toggle */}
@@ -111,9 +117,13 @@ const Navbar = () => {
             <Button variant="outline" className="text-sm justify-start" style={{ color: "#0A2540", borderColor: "#0A2540" }}>
               Acessar painel
             </Button>
-            <Button className="text-sm font-semibold text-white" style={{ backgroundColor: "#00B4D8" }}>
-              Quero testar
-            </Button>
+            <Button
+            className="text-sm font-semibold text-white"
+            style={{ backgroundColor: "#00B4D8" }}
+            onClick={openForm}
+          >
+            Quero testar
+          </Button>
           </div>
         </div>
       )}
